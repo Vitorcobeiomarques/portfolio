@@ -191,13 +191,30 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre .btn-social button {
-width: 60px;
-height:  60px;
-border-radius: 50%;
-border: none;
-background-color: rgb(3, 110, 110);
-font-size: 22px;
-cursor: pointer;
-margin: 0% 5px;
-transition: .2s;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(3, 110, 110);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0% 5px;
+    transition: .2s;
+}
+
+/*ESTILO PROJETOS*/
+
+section.projetos {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+section.projetos .flex {
+    justify-content: space-around;
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-color: rgb(3, 110, 110);
 }
